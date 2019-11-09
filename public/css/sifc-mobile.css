@@ -1,0 +1,124 @@
+﻿@media (max-width: 768px){  
+    .sifc-logo{
+        display: inline;
+        padding: 12px 0 12px 15px;
+    }
+    .sifc-logo img{
+        height: 48px;
+    }
+    .sifc-navbar .navbar-collapse, .sifc-navbar .navbar-form{
+        border: unset;
+    }
+    .sifc-navbar .navbar-nav > li > a{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sifc-index-slider .caption-wraper h2{
+        font-size: 24px;
+    }
+    .sifc-index-title {
+        padding-right: unset;
+        border-right: unset;
+        text-align: left;
+    }
+    .sifc-view-more{
+        margin-top: unset;
+    }
+    .sifc-index-about{
+        padding: 32px 0;
+    }
+    .sifc-index-about-con p{
+        padding-top: 32px;
+    }
+    .sifc-index-courses-list{
+        top: unset;
+    }
+    .sifc-index-courses-list li {
+        width: 50%;
+        height: 180px;
+    }
+    .sifc-index-courses-list li a{
+        padding: 0 18px;
+    }
+    .sifc-index-courses-list li h3{
+        font-size: 18px;
+    }
+    .sifc-index-courses-list li h4{
+        margin-top: 80px;
+    }
+    .sifc-index-news .sifc-index-title{
+        margin-top: unset;
+    }
+    #sifc-carousel-last-news{
+        margin-top: unset;
+    }
+    .sifc-index-works .sifc-index-title{
+        margin-top: unset;
+    }
+    #sifc-carousel-last-works{
+        margin-top: unset;
+    }
+    .sifc-index-graduates{
+        padding: 32px 0;
+    }
+    .sifc-index-graduates-list{
+        margin-top: 32px;
+    }
+    .sifc-index-projects{
+        padding: 32px 0;
+    }
+    .sifc-index-projects-list{
+        margin-top: 60px;
+    }
+    .sifc-banner-about{
+        height: 270px;
+    }
+    .sifc-banner-entrance{
+        height: 270px;
+    }
+    .sifc-banner-title{
+        margin-top: 104px;
+        text-align: left;
+    }
+    .sifc-links{
+        padding: 32px 0;
+    }
+    .sifc-contact-assist{
+        margin-left: unset;
+        font-size: 81px;
+    }
+    .sifc-contact-qr{
+        padding-top: unset;
+        padding-bottom: 32px;
+    }
+}  
+
+@media (max-width: 414px){  
+    .sifc-index-news{height: auto;}
+    .sifc-index-news .sifc-view-more{margin-top: 10px;}
+    #sifc-carousel-last-news .carousel-inner>.item>a>img{width: 100%;}
+    #sifc-carousel-last-news .carousel-indicators{top: 390px; bottom: auto; width: 100%; text-align: center; left: 0}
+    #sifc-carousel-last-news .carousel-control{display: none;}
+    #sifc-carousel-last-news .carousel-caption{width: auto; padding: 15px;}
+    .sifc-index-works{height: auto;}
+    .sifc-index-works .sifc-view-more{margin-top: 10px;}
+    #sifc-carousel-last-works .carousel-indicators{bottom: auto; top: 390px; left: 0; width: 100%; text-align: center;}
+    #sifc-carousel-last-works .carousel-caption{margin-left: auto; padding: 15px;}
+    #sifc-carousel-last-works .carousel-control{display: none;}
+    #sifc-carousel-last-works .carousel-caption {float: left;}
+    #sifc-carousel-last-works .carousel-caption h3 {margin-top: 0;}
+    #sifc-carousel-last-works .carousel-caption p{margin-top: 10px; margin-bottom: 0;}
+    .sifc-index-courses{height: 736px;}
+    #main-menu .menu-item-level-2 a{color: #fff; text-align: left; padding: 8px; padding-left: 20%;}
+    #main-menu .menu-item-level-3 a{color: #fff; text-align: left; padding: 8px; padding-left: 40%;}
+    #main-menu .dropdown-custom-level-2 a.dropdown-toggle-2{color: #fff; text-align: left; padding: 8px; padding-left: 20%;}
+
+    .sifc-main{margin-top: 0;}
+    #main-navigation{margin: 0; width: auto; display: none; margin-bottom: 15px;}
+    .sifc-body-lv2page .sifc-box{}
+    .saibar-index-mobile{height: 60px; line-height: 60px; padding-left: 15px; margin-top: 15px; margin-bottom: 15px; border-radius: 4px;box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);}
+    #selectYear{width: 100px;}
+    ul.navbar-nav{
+        margin: 12.5px -15px;
+    }
+}

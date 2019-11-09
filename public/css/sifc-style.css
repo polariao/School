@@ -1,0 +1,743 @@
+﻿@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+body {
+    font-size: 16px;
+}
+
+/* 顶部 */
+
+.sifc-navbar {
+    background-color: rgba(14, 28, 90, 0.5525)
+}
+
+.sifc-logo {
+    padding: 24px 15px;
+}
+
+.sifc-navbar .navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.sifc-navbar .navbar-nav>.active>a{
+    color: rgba(255, 255, 255, 0.64);
+    background-color: transparent;
+}
+
+.sifc-navbar .navbar-nav>.active>a:hover,
+.sifc-navbar .navbar-nav>.active>a:focus {
+    color: #fff;
+}
+
+.sifc-navbar .navbar-nav > li > a:hover, .sifc-navbar .navbar-nav > li > a:focus{
+    color: #fff;
+}
+
+.sifc-navbar .navbar-nav>.open>a,.sifc-navbar .navbar-nav>.open>a:hover,.sifc-navbar .navbar-nav>.open>a:focus {
+    color:#fff;
+   }
+
+.sifc-navbar .open > a{
+    color: rgba(255, 255, 255, 0.64);
+}
+.sifc-navbar .dropdown-custom-level-2.open a{background-color: transparent;}
+
+.sifc-navbar .open > a:hover, .sifc-navbar .open > a:focus{
+    color: #fff;
+}
+
+.sifc-navbar-nav .dropdown-menu{
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sifc-navbar-nav .menu-item-level-1.active{border-bottom: 3px solid #fff;}
+.sifc-navbar-nav .menu-item-level-1.active a{color: #fff;}
+.sifc-navbar-nav .dropdown-custom-level-1.active{border-bottom: 3px solid #fff;}
+.sifc-navbar-nav .dropdown-custom-level-1.active a.dropdown-toggle-1{color: #fff;}
+
+.sifc-navbar-nav .dropdown-menu > li > a{
+    padding: 8px 16px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.sifc-navbar-nav .dropdown-menu > li > a:hover, .sifc-navbar-nav .dropdown-menu > li > a:focus{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.sifc-navbar-nav .dropdown-menu > .active > a, .sifc-navbar-nav .dropdown-menu > .active > a:hover, .sifc-navbar-nav .dropdown-menu > .active > a:focus{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sifc-navbar-nav .caret{
+    display: none;
+}
+
+.sifc-navbar .navbar-form {
+    margin-top: 32px;
+}
+
+.sifc-navbar .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.sifc-navbar-nav .dropdown-menu-level-2{ left: 100%; top: 0;}
+/* 搜索入口 */
+.sifc-search-enter{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sifc-search-enter .form-control{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.sifc-search-enter .form-control:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sifc-search-enter-button{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* 查看更多 */
+.sifc-view-more{
+    margin-top: 40px;
+}
+.sifc-view-more a{
+    padding-right: 32px;
+    background: url(../pic/icon_right.png) right center no-repeat;
+    color: #809EB9;
+    opacity: 0.8;
+}
+.sifc-view-more a:hover{
+    text-decoration: none;
+    color: #809EB9;
+    opacity: 1;
+}
+
+/* 首页 */
+
+body.sifc-body-index {
+    padding-top: 0;
+}
+
+.sifc-index-title {
+    padding-right: 64px;
+    border-right: 1px solid #ccc;
+    text-align: right;
+}
+
+.sifc-index-title h2 {
+    font-family: "Montserrat-SemiBold";
+}
+
+/* 首页-轮播 */
+.sifc-index-slider .caption-wraper{
+    left: 0;
+    bottom: unset;
+    top: 40%;
+    width: 100%;
+    color: #fff;
+}
+.sifc-index-slider .caption-wraper h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 48px;
+}
+.sifc-index-slider .sy-pager{
+    margin: unset;
+    margin-top: -1.6em;
+    position: absolute;
+    z-index: 9;
+}
+
+.sifc-index-slider .sy-pager li{
+    width: 12px;
+    height: 12px;
+}
+
+.sifc-index-slider .sy-pager li a{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.sifc-index-slider .sy-pager li.sy-active a{
+    background-color: #fff;
+}
+
+/* 首页-关于 */
+
+.sifc-index-about {
+    padding: 64px 0;
+}
+
+.sifc-index-about-data h3 {
+    font-family: "Montserrat-Bold";
+    color: #202662;
+}
+
+.sifc-index-about-data p{
+    color: #999;
+}
+
+.sifc-index-about-con p {
+    padding-top: 64px;
+    line-height: 1.8em;
+}
+
+/* 首页-新闻 */
+
+.sifc-index-news {
+    height: 580px;
+    background: url(../pic/image_news_bg.png);
+}
+
+.sifc-index-news .sifc-index-title {
+    margin-top: 48px;
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+
+#sifc-carousel-last-news {
+    margin-top: 48px;
+}
+
+#sifc-carousel-last-news .img-responsive,
+#sifc-carousel-last-news .thumbnail>img,
+#sifc-carousel-last-news .thumbnail a>img,
+#sifc-carousel-last-news .carousel-inner>.item>img,
+#sifc-carousel-last-news .carousel-inner>.item>a>img {
+    width: 330px;
+    height: 420px;
+    float: right;
+}
+
+#sifc-carousel-last-news .carousel-inner {
+    background: #fff;
+}
+
+#sifc-carousel-last-news .carousel-caption {
+    position: unset;
+    float: left;
+    width: 400px;
+    padding-top: 24px;
+    padding-left: 24px;
+    text-align: left;
+    text-shadow: unset;
+}
+
+#sifc-carousel-last-news .carousel-caption h3 a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0E1C5A;
+}
+
+#sifc-carousel-last-news .carousel-caption p {
+    line-height: 1.8em;
+    color: #464646;
+}
+
+#sifc-carousel-last-news .carousel-caption p.published_time {
+    color: #809EB9;
+}
+
+#sifc-carousel-last-news .carousel-caption p a{
+    text-decoration: none;
+    color: #809EB9;
+}
+
+#sifc-carousel-last-news .carousel-control {
+    top: unset;
+    left: unset;
+    right: 15%;
+    bottom: 10%;
+    width: unset;
+    color: #9B001F;
+}
+
+#sifc-carousel-last-news .carousel-control.right {
+    left: unset;
+    right: 5%;
+}
+
+#sifc-carousel-last-news .carousel-indicators {
+    left: 48px;
+    margin-left: unset;
+    text-align: left;
+}
+
+#sifc-carousel-last-news .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin: unset;
+    border: 2px solid #9B001F;
+}
+
+#sifc-carousel-last-news .carousel-indicators .active {
+    background-color: #9B001F;
+}
+
+/* 首页-课堂 */
+
+.sifc-index-courses {
+    height: 900px;
+    padding: 64px 0;
+}
+
+.sifc-index-courses .container {
+    position: relative;
+}
+
+.sifc-index-courses-list {
+    clear: both;
+    position: absolute;
+    top: 20px;
+}
+
+.sifc-index-courses-list li {
+    position: relative;
+    width: 33.33333333%;
+    height: 382px;
+    background-size: 100%; 
+    float: left;
+    color: #fff;
+}
+
+.sifc-index-courses-list li a{
+    display: block;
+    padding: 36px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sifc-index-courses-list li h3 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 36px;
+    line-height: 1.2em;
+}
+
+.sifc-index-courses-list li h4 {
+    margin-top: 180px;
+    text-align: right;
+}
+
+.sifc-index-courses-list .item1 {
+    background-image: url(../pic/image_course_chinese.png);
+}
+
+.sifc-index-courses-list .item2 {
+    background-image: url(../pic/image_course_language.png);
+}
+
+.sifc-index-courses-list .item3 {
+    background-image: url(../pic/image_course_physical.png);
+}
+
+.sifc-index-courses-list .item4 {
+    background-image: url(../pic/image_course_art.png);
+}
+
+.sifc-index-courses-list .item5 {
+    background-image: url(../pic/image_course_music.png);
+}
+
+/* 首页-作品 */
+
+.sifc-index-works {
+    height: 580px;
+    background: url(../pic/image_bg_works.png) center;
+}
+
+.sifc-index-works .sifc-index-title {
+    margin-top: 48px;
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+
+#sifc-carousel-last-works {
+    margin-top: 48px;
+}
+
+#sifc-carousel-last-works .img-responsive,
+#sifc-carousel-last-works .thumbnail>img,
+#sifc-carousel-last-works .thumbnail a>img,
+#sifc-carousel-last-works .carousel-inner>.item>img,
+#sifc-carousel-last-works .carousel-inner>.item>a>img {
+    width: 484px;
+    height: 420px;
+    float: left;
+}
+
+#sifc-carousel-last-works .carousel-inner {
+    background: #fff;
+}
+
+#sifc-carousel-last-works .carousel-caption {
+    position: unset;
+    margin-left: 484px;
+    padding-top: 24px;
+    padding-left: 48px;
+    text-align: left;
+    text-shadow: unset;
+}
+
+#sifc-carousel-last-works .carousel-caption h3 a {
+    font-family: "Montserrat-SemiBold";
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #464646;
+}
+
+#sifc-carousel-last-works .carousel-caption p {
+    margin-top: 160px;
+    line-height: 1.8em;
+    color: #464646;
+}
+
+#sifc-carousel-last-works .carousel-control {
+    top: unset;
+    left: 5%;
+    right: unset;
+    bottom: 10%;
+    width: unset;
+    color: #9B001F;
+}
+
+#sifc-carousel-last-works .carousel-control.right {
+    left: 15%;
+    right: unset;
+}
+
+#sifc-carousel-last-works .carousel-indicators {
+    left: unset;
+    right: 48px;
+    width: unset;
+    margin-left: unset;
+    text-align: left;
+}
+
+#sifc-carousel-last-works .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin: unset;
+    border: 2px solid #9B001F;
+}
+
+#sifc-carousel-last-works .carousel-indicators .active {
+    background-color: #9B001F;
+}
+
+.sfic-index-works-corner-mark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 94px;
+    padding-top: 40px;
+    padding-right: 16px;
+    background: #820021;
+    font-family: "Montserrat-SemiBold";
+    font-size: 36px;
+    text-align: right;
+    color: #fff;
+    ;
+}
+
+/* 首页-毕业生 */
+
+.sifc-index-graduates {
+    padding: 64px 0;
+}
+
+.sifc-index-graduates-list {
+    margin-top: 64px;
+}
+
+.sifc-index-graduates-list .item {
+    position: relative;
+}
+.sifc-index-graduates-list .item a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.sifc-index-graduates-list .item h3 {
+    margin-top: 16px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.sifc-index-graduates-list .item p {
+    margin-top: 40px;
+}
+
+.sifc-index-graduates-list .item img {
+    width: 100%;
+    transition: all 1s;
+    -moz-transition: width 1s; /* Firefox 4 */
+    -webkit-transition: width 1s; /* Safari 和 Chrome */
+    -o-transition: width 1s; /* Opera */
+}
+
+.sifc-index-graduates-list .item .index-luqu{
+    position: absolute;
+    top: 100%;
+    left: 0; 
+    right: 0;
+}
+
+
+/* 首页-项目 */
+
+.sifc-index-projects {
+    height: 700px;
+    padding: 64px 0;
+    background: rgba(148, 185, 207, 0.08);
+}
+
+.sifc-index-projects-intro p {
+    padding-top: 20px;
+    line-height: 1.8em;
+}
+
+.sifc-index-projects-list {
+    margin-top: 120px;
+}
+
+.sifc-index-projects-list .item {
+    text-align: center;
+}
+
+.sifc-index-projects-list .item h3{
+    font-family: "Montserrat-SemiBold";
+    font-size: 16px;
+}
+
+.sifc-index-projects-list .item h3 small{
+    font-size: 18px;
+}
+
+.sifc-index-projects-list .item img {
+    margin: auto;
+}
+
+/* 友情链接 */
+
+.sifc-links{
+    padding: 64px 0;
+}
+.sifc-links-list .item{
+    height: 48px;
+    display: table;
+    table-layout: fixed;
+    
+}
+.sifc-links-list .item a{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.sifc-links-list .item img{
+    max-width: 100%;
+    max-height: 48px;
+}
+/* 联系 */
+.sifc-contact-info h2{
+    font-family: "Montserrat-SemiBold";
+}
+.sifc-contact-info p{
+    line-height: 1.8em;
+}
+.sifc-contact-assist{
+    margin-left: 72px;
+    font-family: 'Montserrat-Bold';
+    font-size: 144px;
+    color: #0E1C5A;
+    opacity: .06;
+}
+.sifc-contact-qr{
+    padding-top: 42px;
+}
+.sifc-contact-qr img{
+    width: 120px;
+    height: 120px;
+}
+/* 底部 */
+.sifc-footer{
+    padding: 40px 0;
+    background: #0E1C5A;
+    color: #fff;
+}
+.sifc-footer p{
+    line-height: 1.6em;
+}
+.sifc-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+/* 二级页面 */
+body.sifc-body-lv2page{
+    padding-top: 0;
+}
+.sifc-banner-title{
+    margin-top: 208px;
+    text-align: right;
+    color: #fff;
+}
+.sifc-banner-title h2{
+    font-family: "Montserrat-SemiBold";
+}
+.sifc-main{
+    margin-top: -120px;
+}
+.sifc-sidebar{
+    width: 100%;
+    background: #fff;
+    -moz-box-shadow:0 0 16px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 0 16px rgba(0, 0, 0, 0.16);
+    box-shadow:0 0 16px rgba(0, 0, 0, 0.16);
+}
+.sifc-sidebar > li{
+    float: unset;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.sifc-sidebar > li > a{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 24px;
+    color: #999;
+}
+.sifc-sidebar > li > a:hover, .sifc-sidebar > li > a:focus{
+    background-color: transparent;
+    border-left: 2px solid #0E1C5A;
+    color: #0E1C5A;
+}
+.sifc-sidebar .open > a, .sifc-sidebar .open > a:hover, .sifc-sidebar .open > a:focus{
+    background-color: transparent;
+    border-left: 2px solid #0E1C5A;
+    color: #0E1C5A;
+}
+.sifc-body-lv2page .sifc-box{
+    min-height: 600px;
+    border: unset;
+    -moz-box-shadow:0 0 16px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 0 16px rgba(0, 0, 0, 0.16);
+    box-shadow:0 0 16px rgba(0, 0, 0, 0.16);
+}
+.sifc-box img{
+    max-width: 100%;
+}
+.sifc-box{position: relative;}
+.sifc-sidebar .dropdown-menu{top: 15px; left: 58%;}
+/* 分页 */
+.sifc-pagination > li > a, .sifc-pagination > li > span{
+    color: #0E1C5A;
+}
+.sifc-pagination>li>a:hover,.sifc-pagination>li>span:hover,.sifc-pagination>li>a:focus,.sifc-pagination>li>span:focus {
+    color:#0E1C5A;
+    background-color: #eee;
+   }
+/* 二级页面-关于我们 */
+.sifc-banner-about{
+    height: 540px;
+    background: url(../pic/image_bg_teacher.jpg) no-repeat;
+}
+/* 二级页面-入学申请 */
+.sifc-banner-entrance{
+    height: 540px;
+    background: url(../pic/image_bg_application_for_admission.png) no-repeat;
+}
+/* 二级页面-学术课程 */
+.sifc-banner-courses{
+    height: 540px;
+    background: url(../pic/image_bg.jpg) no-repeat;
+}
+/* 二级页面-升学规划 */
+.sifc-banner-study-planning{
+    height: 540px;
+    background: url(../pic/image_bg_study_planning.png) no-repeat;
+}
+/* 二级页面-校园动态 */
+.sifc-banner-news{
+    height: 540px;
+    background: url(../pic/image_bg_club.jpg) no-repeat;
+}
+/* 二级页面-办学成果 */
+.sifc-banner-achievements{
+    height: 540px;
+    background: url(../pic/image_acchivie_bg.jpg) no-repeat;
+}
+/* 师资团队 */
+.sifc-list-teacher a{
+    color: #333;
+    text-decoration: none;
+}
+.sifc-list-teacher h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 校园动态 */
+.sifc-list-news a{
+    color: #0E1C5A;
+    text-decoration: none;
+}
+.sifc-list-news h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* 优秀毕业生 */
+.sifc-list-graduate {list-style: none; padding: 0;}
+.sifc-list-graduate li{margin-bottom: 30px;}
+.sifc-list-graduate a{
+    color: #333;
+    text-decoration: none;
+}
+.sifc-list-graduate h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.stu-name {color: #333; font-size: 24px; margin-top: 30px; font-weight: 600;}
+.stu-name span{color: #999; margin-left: 15px;}
+
+/*隐藏右下角php信息*/
+#think_page_trace_open{display: none;}
+/*左导航加状态*/
+#main-navigation li.active a:first-child{
+    background-color: transparent;
+    border-left: 2px solid #0E1C5A;
+    color: #0E1C5A;
+}
+#main-navigation li.active ul.dropdown-menu li a{
+    background-color: transparent;
+    border-left: none;
+    color: #333;
+}
+#main-navigation li.active ul.dropdown-menu li a:hover{
+    background-color: #2780E3;
+    color: #fff;
+}
+
+#selectYear{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 200px;
+}

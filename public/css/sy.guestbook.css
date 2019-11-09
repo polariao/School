@@ -1,0 +1,82 @@
+﻿/*guestbook*/
+.section-guestbook {
+    padding: 0;
+}
+.section-guestbook .lead {
+    margin-bottom: 20px;
+    font-size: 100%;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.sy-guestbook {
+    position: relative;
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.sy-guestbook .form-control {
+    padding-right: 42.5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #ffffff;
+    height: 40px;
+    border-color: #e1e1e1;
+    color: #777777;
+    position: relative;
+    -webkit-appearance: none;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+.sy-guestbook textarea.form-control {
+    height: auto;
+}
+
+form label, .radio label, .checkbox label {
+    font-weight: 300;
+}
+
+.require-item {
+    color: #990000;
+}
+
+.form-control-guestbook {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    text-align: center;
+    pointer-events: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px !important;
+    top: 0;
+    color: #777777;
+}
+
+.sy-guestbook label ~ .form-control-guestbook {
+    top: 27px;
+}
+
+.contact-form .btn {
+    padding: 7px 20px;
+    font-size: 100%;
+    line-height: 1.4666666667;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.contact-form .btn-default {
+    color: #ffffff;
+    background-color: #248d8e;
+    border-color: #248d8e;
+}

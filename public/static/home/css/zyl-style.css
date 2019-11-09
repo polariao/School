@@ -1,0 +1,906 @@
+﻿@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'PingFangSC-Medium';
+    src: url('../fonts/PingFangSC-Medium.otf');
+}
+@font-face {
+    font-family: 'PingFangSC-Regular';
+    src: url('../fonts/PingFangSC-Regular.otf');
+}
+@font-face {
+    font-family: 'PingFangSC-Semibold';
+    src: url('../fonts/PingFangSC-Semibold.otf');
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+/*用于修改PC版页面*/
+@CHARSET "UTF-8";
+/*公共样式*/
+.mat30{margin-top: 30px}
+.mat50{margin-top: 50px}
+.mat200{margin-top: 200px}
+.top370{top:370px}
+.font18{font-size: 18px}
+.font36{font-size: 36px}
+.height240{height: 240px}
+.height700{height: 700px}
+.height500{height: 500px}
+.par0{padding-right: 0}
+.tc-box.article-box{padding: 5px 30px 20px 30px}
+.zyl-shetuan img{margin: auto;margin-bottom: 20px}
+/*首页修改*/
+.list-unstyled-a{position: relative}
+.zyl-index-news{
+    width: 765px;
+    height: 324px;
+}
+.zyl-index-works{
+    float: right;
+    width: 1140px;
+    height: 380px;
+}
+.zyl-fade{
+    width: 700px;
+}
+#sifc-carousel-last-news .carousel-inner > .item > a > img{
+    width: 360px;
+    height: 324px;
+}
+#sifc-carousel-last-news{
+    margin-top: 124px;
+}
+#sifc-carousel-last-news .carousel-control{
+    color: #fff;
+}
+#sifc-carousel-last-news .carousel-indicators{
+    left: 0;
+}
+#sifc-carousel-last-news .carousel-indicators .active{
+    background: #fff;
+}
+#sifc-carousel-last-news .carousel-indicators li{
+    margin: 0 10px;
+    border: 2px solid #fff;
+}
+
+#sifc-carousel-last-works{
+    margin-top: 200px;
+}
+.zyl-pos-works{
+    position: absolute;
+    right: 0;
+    margin-top: -100px;
+    margin-right: 40px;
+}
+#sifc-carousel-last-works .carousel-indicators .active{
+    background: #fff;
+}
+#sifc-carousel-last-works .carousel-indicators li{
+    margin: 0 10px;
+    border: 2px solid #fff;
+}
+
+#sifc-carousel-last-works .carousel-indicators{
+    top: 420px;
+    right: 500px;
+}
+#sifc-carousel-last-works .carousel-inner > .item > a > img {
+    width: 380px;
+    height: 380px;
+}
+.sifc-view-more a{
+    display: block;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    float: right;
+    margin-top: -10px;
+}
+#indexStudent{
+    height: 519px;
+    overflow: hidden;
+}
+.zyl-lunbo-stu{
+    position: relative;
+}
+.zyl-gengduo-stu{
+    position: absolute;
+    top:50px;
+    right: 0;
+    margin-right: 40px;
+}
+.zyl-nav-img{width: 180px;margin-left: 80px;margin-right: 60px}
+.zyl-nav-a{padding-top: 10px;height: 103px;background-color: rgba(255, 255, 255, 0.75);}
+.zyl-footer-img{width: 180px}
+
+/*优秀学生页修改*/
+.zyl-sudent{
+    height: 100%;
+    overflow: hidden;
+}
+.zyl-Gra{
+    position: relative;
+}
+.zyl-Gra-div{
+    width: 100%;
+    position:relative;
+}
+
+.sifc-index-graduates-list .zyl-Gra-div>h3{
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background:#fff;
+    height: 125px;
+    font-size: 26px;
+}
+.zyl-Gra-div>h3>a{
+    font-size: 24px;
+}
+.zyl-Gra-div>h3>a>small{
+    font-size: 18px;
+}
+.zyl-Gra-div>p{
+    width: 100%;
+    background:#fff;
+}
+.zyl-Gra-div .index-luqu{
+    font-size: 18px;
+    color: #464646;
+    letter-spacing: 0;
+}
+.zyl-Gra-div .index-luqu a{
+    font-size: 16px;
+    color: #464646;
+    letter-spacing: 0;
+    line-height: 1.5em;
+}
+.zyl-sudent:hover .zyl-Gra-div{
+    top:-200px
+}
+#zyl-stu-name{
+    font-size: 36px;
+    margin: 20px 0 10px 0;
+    color: #464646;
+    letter-spacing: 0;
+}
+#zyl-stu-name span{
+    font-size: 24px;
+}
+.zyl-enroll-p{
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #464646;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+.zyl-intro-p{
+    margin-bottom: 20px;
+}
+#enroll{
+    font-size: 16px;
+    color: #464646;
+    letter-spacing: 0;
+    line-height: 1.5em;
+}
+
+.zyl-page{
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+.zyl-page a{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+    color: #464646;
+}
+/*顶部悬浮窗*/
+/*ul.navbar-nav{*/
+    /*margin-left: 100px;*/
+/*}*/
+.navbar-nav > li{
+    margin: 0 15px;
+}
+.zyl-nav-input{
+    margin-right: 2%;
+}
+.zyl-en{
+    float: right;
+    height:40px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+.zyl-en a{
+    color: #fff;
+}
+/*侧边悬浮*/
+.zyl-online{
+    position: fixed;
+    top:40%;
+    right: 0;
+}
+
+.online-apply{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 2px #999;
+}
+.online-apply a{
+     display: block;
+     width: 100%;
+     height: 100%;
+     font-size: 16px;
+     color: #A02328;
+     letter-spacing: 0;
+}
+.online-apply img{
+    margin: 20px 29px 10px 29px ;
+}
+.online-query{
+    width: 108px;
+    height: 180px;
+    margin-top: 10px;
+    /*background-image: linear-gradient(-134deg, #B8001F 0%, #820021 100%);*/
+    background-color: #A02328;
+    text-align: center;
+}
+.online-query img{
+    margin: 110px 40px 5px 40px;
+}
+.online-query a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0;
+}
+.online-appointment{
+    width: 108px;
+    height: 90px;
+    /*background-image: linear-gradient(-134deg, #B8001F 0%, #820021 100%);*/
+    background-color: #00377B;
+    text-align: center;
+}
+.online-appointment img {
+    margin: 20px 40px 5px 40px;
+}
+.online-appointment a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0;
+}
+.sifc-index-about-data h3,#sifc-carousel-last-news .carousel-caption h3 a,.sifc-list-news a{
+    color: #00377B;
+}
+
+.sifc-footer{
+    background: rgba(14, 28, 90, 0.5525);
+    color: #00377B;
+}
+.sifc-footer a{
+    color: #00377B;
+}
+.zyl-school-heigt{
+    height: 250px;
+}
+/*#main-navigation li.active a:first-child,.sifc-sidebar > li > a:hover, .sifc-sidebar > li > a:focus{
+    color: #00377B;
+    border-left: 2px solid #00377B;
+}
+.sifc-pagination > li > a:focus,.sifc-pagination > li > a,.pagination > li > a:focus,.pagination > li > a{
+    color: #00377B;
+}
+.sifc-navbar .navbar-nav > .active > a:hover, .sifc-navbar .navbar-nav > .active > a:focus{
+    color: #00377B;
+}
+.sifc-navbar-nav .menu-item-level-1.active a{
+    color: #00377B;
+}
+.sifc-navbar .navbar-nav > li > a:hover, .sifc-navbar .navbar-nav > li > a:focus,.sifc-navbar .navbar-nav > .open > a:hover{
+    color: #00377B;
+}
+.sifc-navbar .navbar-nav > li > a{
+    color: #00377B;
+}
+.sifc-navbar-nav .dropdown-custom-level-1.active a.dropdown-toggle-1,
+.sifc-navbar .navbar-nav>.open>a{
+    color: #00377B;
+}
+.sifc-navbar-nav .dropdown-custom-level-1.active,.sifc-navbar-nav .menu-item-level-1.active{
+    border-bottom: 3px solid #00377B;
+}
+.sifc-navbar {
+    background-color: rgba(231,236,242, 0.65);
+}
+.sifc-search-enter {
+    background-color: rgba(255, 255, 255, 0.65);
+    border: 1px solid #DBE2EB;
+}
+.sifc-search-enter .form-control{
+    color: #999;
+}
+.sifc-search-enter-button{
+    color: #0C1A58;
+}
+*/
+/*联系我们*/
+.zyl-contact-h2{
+    margin: 30px 0 20px 0;
+}
+.zyl-contact-map{
+    width: 800px;
+    height: 320px;
+    background:url("../pic/map.png")no-repeat center;
+    margin-bottom: 35px;
+}
+.qr-code{
+    height: 150px;
+    margin-bottom: 10px;
+}
+.qr-code div,.qr-code img{
+    float: left;
+}
+.qr-code img{
+    margin-left: 20px;
+}
+/*师资团队*/
+.zyl-teacher-list{
+    height: 250px;
+    text-align: center;
+}
+.zyl-teacher-list a h2{
+    margin-top: 10px;
+}
+.zyl-teacher-list p{
+    margin: 10px 0;
+}
+.sifc-list-teacher img{
+    width: 250px;
+    height: 166px;
+}
+
+/*社团活动*/
+.sifc-banner-activities{
+    background: url(../pic/activities.png) no-repeat;
+}
+.zyl-club-img{
+    margin: auto;
+}
+/*作品列表*/
+.works-img-div{
+    padding: 0;
+    margin-top: 10px;
+}
+.works-img-div img{
+    width: 50%;
+    float: left;
+}
+.works-list-div{
+   float: left;
+   margin-left: 50px;
+   margin-top: 50px;
+}
+.works-list-div h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1em;
+    margin-bottom: 50px;
+}
+.works-list-div h2 span{
+    font-size: 28px;
+
+}
+.works-list-div p{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+/*新闻页*/
+.zyl-now-row{
+    padding: 20px 0;
+    border-bottom: 1px solid #DFE3E4;
+    margin: 0 20px;
+}
+.zyl-now-row .sifc-list-news .row{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 0 20px 0;
+}
+.zyl-now-row .col-md-4{
+    padding-left: 0;
+}
+.zyl-now-row .col-md-8{
+    padding-right: 0;
+}
+.zyl-now-row .col-md-8>h2{
+    margin-top: 5px;
+}
+/*教师团队*/
+.tc-box.article-box.zyl-teacher-div{
+    padding-bottom: 30px;
+}
+.zyl-teacher-div .img-responsive{
+    margin: auto;
+}
+.zyl-teacher-h2{
+    text-align: center;
+    margin: 40px 0 30px;
+}
+.zyl-teacher-h2 span{
+    line-height: 2em;
+}
+.zyl-teacher-h2 strong span{
+    margin-left: 20px;
+}
+.zyl-list-br{
+    display: none;
+}
+#article_content p span{
+    line-height: 2em;
+}
+/*背景图*/
+.sifc-banner-about{
+    background: url(../pic/guanyu.png) no-repeat;
+}
+.sifc-banner-entranc{
+    background: url(../pic/shengqing.png) no-repeat;
+}
+.sifc-banner-courses{
+    background: url(../pic/kecheng.jpg) no-repeat;
+}
+.sifc-banner-activities{
+    background: url(../pic/shetuan.png) no-repeat;
+}
+.sifc-banner-study-planning{
+    background: url(../pic/shengxue.jpg) no-repeat;
+}
+.sifc-banner-news{
+    background: url(../pic/xinwen.png) no-repeat;
+}
+.sifc-banner-achievements{
+    background: url(../pic/chengguo.png) no-repeat;
+}
+.sifc-banner-visit{
+    height: 540px;
+    background: url(../pic/visit.png) no-repeat;
+}
+
+/*搜索结果页*/
+.zyl-search .main-title h3{
+    font-size: 36px;
+    color: #0A0000;
+    letter-spacing: 0;
+    line-height: 44px;
+}
+.zyl-search .main-title p{
+    font-size: 18px;
+    color: #848484;
+    margin: 0 0 40px 5px;
+}
+.zyl-search .list-boxes{
+    padding: 20px;
+}
+.zyl-boxes-div{
+    width: 80%;
+}
+.zyl-boxes-div h2 a{
+    font-family:  'Montserrat-SemiBold';
+    font-size: 20px;
+    color: #161B59;
+    line-height: 1.2em
+}
+.zyl-boxes-div p{
+    font-size: 16px;
+    color: #848484;
+}
+
+.zyl-warning-a{
+    padding: 5px 30px;
+    color: #820021;
+    background: #fff;
+    border: 1px solid #820021;
+    margin-top: -30px;
+}
+.zyl-warning-a:hover{
+    color: #fff;
+    background: #820021;
+    border: 1px solid #820021;
+}
+.zyl-search-jieguo{text-align: center}
+.zyl-search-jieguo p{font-size: 16px; color: #CBCDD8;  letter-spacing: 0;}
+
+.zyl-search .list-boxes{
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+.list-actions a,.list-actions i{
+    margin: 0 2px;
+    color: #bbb;
+}
+.list-boxes:hover h2 a {
+    color: #820021;
+}
+/*预约访问*/
+.zyl-visit-form{
+    margin-top: 50px;
+}
+.zyl-visit-form .form-group.sy-guestbook span{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.zyl-visit-input{
+    display: inline-block;
+    width: 50%;
+}
+.zyl-visit-form .g-recaptcha{
+    text-align: center;
+    margin-top: 20px;
+}
+.zyl-visit-form .g-recaptcha input{
+    background-color: #820021;
+    border-color: #820021;
+    font-size: 16px;
+}
+.zyl-tea-list{
+    height: 300px;
+}
+.sifc-list-graduate li{
+    margin-bottom: 20px;
+    height: 460px;
+}
+*,a,p,h1,h2,h3,h3,h4,h5,h6,span{font-family: "Microsoft YaHei", "Source Sans Pro", Calibri, Candara, Arial, sans-serif}
+
+@media (max-width: 1400px){
+    .zyl-nav-img{margin-left: 0;margin-right: 0}
+}
+
+@media screen and (min-width:1000px) and (max-width:1670px) {
+    .sifc-navbar .navbar-nav > li{margin: 0;}
+    .zyl-nav-input{margin-right: 0;}
+    .zyl-en{margin-left: 10px;}
+    .sifc-navbar .navbar-nav > li > a{padding-left: 9px; padding-right: 9px;}
+    .sifc-navbar .navbar-form{padding-left: 0;}
+}
+@media screen and (min-width:1320px) and (max-width:1440px) {
+    .online-apply ,.online-appointment{
+        width: 80px;
+        height: 80px;
+    }
+    .online-query{
+        width: 80px;
+        height: 140px;
+    }
+    .online-apply a,.online-query a,.online-appointment a{
+        font-size: 12px;
+    }
+    .online-apply img ,.online-appointment img{
+        margin: 10px 25px;
+    }
+    .online-query img{
+        margin: 80px 25px 10px 25px;
+    }
+}
+@media (max-width: 1320px) {
+    .zyl-online{
+        top: 60%;
+    }
+    .online-apply ,.online-appointment{
+        width: 50px;
+        height: 50px;
+    }
+    .online-query{
+        width: 50px;
+        height: 100px;
+    }
+    .online-apply a,.online-query a,.online-appointment a{
+        font-size: 0px;
+    }
+    .online-apply img ,.online-appointment img{
+        margin: 10px;
+    }
+    .online-query img{
+        margin: 60px 10px 10px 10px;
+    }
+    #backtotop{right: 10px}
+}
+
+@media (max-width: 768px){
+    .sifc-banner-about,
+    .sifc-banner-entranc,
+    .sifc-banner-visit,
+    .sifc-banner-courses,
+    .sifc-banner-news,
+    .sifc-banner-activities,
+    .sifc-banner-achievements,
+    .sifc-banner-study-planning{
+        height: 270px;
+    }
+    .zyl-now-row{
+        margin: 0 -15px;
+        padding: 0;
+    }
+    .tc-box.article-box{padding: 5px 20px 20px 20px}
+    .zyl-tea-list{
+        height: auto;
+    }
+    .sifc-list-graduate li{
+        height: auto;
+    }
+    .sifc-navbar .navbar-toggle .icon-bar {
+        background-color: #00377B;
+    }
+    .zyl-nav-a{
+        height: auto;
+        background-color: transparent;
+    }
+    .sifc-navbar .navbar-nav > .active > a:hover,
+    .sifc-navbar .navbar-nav > .active > a:focus,
+    .sifc-navbar-nav .menu-item-level-1.active a,
+    .sifc-navbar .navbar-nav > li > a:hover,
+    .sifc-navbar .navbar-nav > li > a:focus,
+    .sifc-pagination > li > a:focus,
+    .sifc-pagination > li > a,
+    .pagination > li > a:focus,
+    .pagination > li > a,
+    .sifc-navbar .navbar-nav > .open > a:hover,
+    .sifc-navbar .navbar-nav > li > a,
+    .sifc-navbar-nav .dropdown-custom-level-1.active a.dropdown-toggle-1,
+    .sifc-navbar .navbar-nav>.open>a{
+        color: #00377B;
+    }
+    .zyl-school-heigt{
+        height: auto;
+    }
+}
+
+
+    /*手机适配*/
+@media (max-width: 415px){
+    /*导航条*/
+    #backtotop{
+        bottom: 20px;
+    }
+    .zyl-online{
+        top: 60%;
+    }
+    .online-apply ,.online-appointment{
+        width: 50px;
+        height: 50px;
+    }
+    .online-query{
+        width: 50px;
+        height: 100px;
+    }
+    .online-apply a,.online-query a,.online-appointment a{
+        font-size: 0px;
+    }
+    .online-apply img ,.online-appointment img{
+        margin: 10px;
+    }
+    .online-query img{
+        margin: 60px 10px 10px 10px;
+    }
+    .zyl-nav-input{
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .input-group.sifc-search-enter{
+        width: 85%;
+        float: left;
+    }
+    .zyl-en{
+        margin: 0;
+        float: right;
+    }
+    /*首页*/
+    .sifc-index-news{
+        padding: 30px 0;
+    }
+    .zyl-index-news{
+        width: 100%;
+    }
+    #sifc-carousel-last-news{
+        margin-top: 0px;
+    }
+    .zyl-index-news .item>a{
+        display: none;
+    }
+    .zyl-index-news-a{
+        margin: 10px;
+    }
+    ol.carousel-indicators{
+        display: none;
+    }
+    #sifc-carousel-last-works{
+        margin-top: 0;
+    }
+    .sifc-view-more a{
+        margin-top: 10px;
+    }
+    .zyl-index-works{
+        width: 100%;
+        height: 100%;
+    }
+    .index-luqu{
+        display: none;
+    }
+    #sifc-carousel-last-works .carousel-inner > .item > a > img{
+        width: 100%;
+        height: 250px;
+    }
+    .sifc-index-works.height700{
+        height: 100%;
+        padding: 30px 0;
+    }
+    .zyl-pos-works{
+        position: relative;
+        margin: 0;
+    }
+    .zyl-pos-works a{
+        margin: 20px 0;
+    }
+    #sifc-carousel-last-works ol{
+        display: none;
+    }
+    .sifc-index-graduates-list .item h3{
+        font-size: 24px;
+        height: 100%;
+    }
+    .zyl-Gra-div .index-luqu{
+        font-size: 16px;
+        line-height: 1.5em;
+
+    }
+    .zyl-Gra-div > h3{
+        padding: 20px 0;
+    }
+    .zyl-Gra-div .index-luqu a{
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+    .zyl-sudent:hover .zyl-Gra-div{
+        top:0;
+    }
+    .zyl-now-row{
+        margin: 0 -15px;
+        padding: 0
+    }
+    /*学生作品*/
+    .works-list-div{
+        margin: 10px 0 0 20px;
+    }
+    .works-list-div h2{
+        margin-bottom: 20px;
+        line-height: 1.2em;
+    }
+    .works-list-div h2 span{
+        font-size: 24px;
+    }
+    .works-img-div img{
+        width: 100%;
+    }
+    .zyl-fade{
+        width: 100%;
+    }
+    /*搜索结果*/
+    .container.tc-main.mat200{
+        margin-top: 80px;
+    }
+    .zyl-search .main-title h3{
+        font-size: 24px;
+    }
+    .zyl-search .main-title p{
+        font-size: 16px;
+    }
+    .zyl-boxes-div{
+        width: 100%;
+    }
+    .zyl-search .main-title p{
+        margin-bottom: 20px;
+    }
+    .zyl-warning-a{
+        margin-top: 0;
+    }
+    .zyl-search-jieguo img{
+        width: 80%;
+    }
+    .zyl-search .list-boxes{
+        padding: 20px 10px;
+    }
+    /*预约访问*/
+    .zyl-visit-form{
+        padding: 0 15px;
+    }
+    .zyl-visit-form .form-group.sy-guestbook span{
+        width: 100%;
+        margin: 5px;
+        text-align: left;
+    }
+    .zyl-visit-input{
+        width: 100%;
+        display: block;
+    }
+    #zyl-stu-name{
+        font-size: 24px;
+    }
+    #zyl-stu-name span{
+        font-size: 18px;
+    }
+    .zyl-gengduo-stu {
+        margin-right: 10px;
+    }
+    .zyl-Gra-div>h3>a{
+        font-size: 20px;
+    }
+    .zyl-Gra-div>h3>a>small{
+        font-size: 15px;
+    }
+    .zyl-teacher-h2{
+        text-align: center;
+        margin: 20px;
+    }
+    .zyl-teacher-h2 span{
+        line-height: 1.1em;
+    }
+    .zyl-teacher-h2 strong span{
+        margin-left: 0;
+    }
+    .zyl-teacher-h2 span strong{
+        font-size: 18px;
+    }
+    .zyl-list-br{
+        display: block;
+    }
+    .zyl-teacher-h1{
+        font-size: 20px;
+    }
+    .zyl-teacher-list{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .sifc-list-teacher img{
+        width: 100%;
+        height: auto;
+    }
+    .zyl-intro-p{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .sifc-navbar {
+          background-color: rgba(255, 255, 255, 0.88);
+      }
+    #main-menu .menu-item-level-2 a,
+    #main-menu .dropdown-custom-level-2 a.dropdown-toggle-2,
+    #main-menu .menu-item-level-3 a,
+    .sifc-navbar .navbar-nav > .open > a:focus{
+        color:#00377B;
+    }
+    .navbar-form.navbar-right.zyl-nav-input{
+        margin-top: 10px;
+    }
+    .zyl-school-heigt{
+        height: auto;
+    }
+}

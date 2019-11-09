@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>报名</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.36183449%" y1="0%" x2="100%" y2="97.1014132%" id="linearGradient-1">
+            <stop stop-color="#B8001F" offset="0%"></stop>
+            <stop stop-color="#820021" offset="100%"></stop>
+        </linearGradient>
+        <path d="M9.47978451,26.804675 L2.26462332,27.9742555 C1.20041146,28.1480329 0.196732744,27.423635 0.0248966996,26.3575399 C-0.00829889987,26.1525217 -0.00829889987,25.9416457 0.0248966996,25.7346749 L1.19455341,18.5199842 L12.2408773,7.47438054 L20.5261084,15.7590714 L9.47978451,26.804675 Z M23.2872012,12.9981586 L15.0019701,4.71346777 L19.1436093,0.572098615 C19.5263351,0.19135039 20.0242691,0 20.5261084,0 C21.0240424,0 21.5258818,0.19135039 21.9066548,0.572098615 L27.4288404,6.09587671 C28.1903865,6.85737316 28.1903865,8.09334048 27.4288404,8.85483693" id="path-2"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="报名查询new" transform="translate(-44.000000, -23.000000)">
+            <g id="Group-10-Copy-4">
+                <g id="Group-9" transform="translate(14.000000, 16.000000)">
+                    <g id="报名" transform="translate(23.000000, 0.000000)">
+                        <g id="icon" transform="translate(7.000000, 7.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="edit" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        </g>
+                        <rect id="base" x="0" y="0" width="42" height="42"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
